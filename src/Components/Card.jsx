@@ -23,8 +23,8 @@ function Card({ name, imageUrl, role, location }) {
                 />
                 <hr className="border-l border-solid h-14 opacity-30" />
                 <div className="font-[400] leading-[16px]">
-                    <h1 className="text-white text-[1.2rem]">{name}</h1>
-                    <p className="text-[1.2rem] text-white mt-2">
+                    <h1 className="text-white text-[1rem] md:text-[1.2rem]">{name}</h1>
+                    <p className="text-[1rem] md:text-[1.2rem] text-white mt-2">
                         {role}
                     </p>
                     <p className="text-[0.9rem] text-gray-500 dark:text-gray-400 mt-2">
